@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import {defineProps} from "vue";
+
   defineProps<{ book: string }>()
 </script>
 
@@ -6,7 +8,8 @@
   <div class="card">
     <div class="card-body">
       {{book}}
-      <slot></slot>
+      <slot>
+      </slot>
     </div>
   </div>
 </template>

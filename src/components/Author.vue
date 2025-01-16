@@ -33,7 +33,11 @@ const publishedBooksMessage = computed(() => {
 
   <input type="text" v-model="search" placeholder="Rechercher un livre" />
 
-  <Card v-for="book in filteredBooks" :key="book" :book=book></Card>
+  <div v-for="book in filteredBooks" :key="book">
+    <Card :book=book></Card>
+    <Button color="red" :label="'Supprimer'"></Button>
+  </div>
+
 
   <p>
     Nombre de livre : <span>{{ publishedBooksMessage }}</span>
