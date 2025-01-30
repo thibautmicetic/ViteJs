@@ -20,7 +20,7 @@ export default defineComponent({
 
   <p>{{count}}</p>
 
-  <button @click="incrementCount()">Clicker</button>
+  <button @click="incrementCount()">Cliquer</button>
 </template>
 
 <style scoped>

@@ -42,6 +42,13 @@ const input = ref('Thibaut');
 
   <Author></Author>
   <Old></Old>
+
+  <div class="card">
+    <div class="card-body">
+      <p>La brique ne sait pas coder</p>
+      <slot></slot>
+    </div>
+  </div>
 </template>
 
 <style scoped>
