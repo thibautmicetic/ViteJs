@@ -36,6 +36,10 @@ const input = ref('Thibaut');
     <input v-model="input" />
   </div>
 
+  <div>
+    <p>UI BONCHOUR</p>
+  </div>
+
   <Author></Author>
   <Old></Old>
 </template>
